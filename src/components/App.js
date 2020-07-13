@@ -1,12 +1,15 @@
 import React from "react";
-import Movies from "./Movies";
-import '../index.css'
-
+import NavBar from "./NavBar";
+import "../index.css";
+import Counters from "./Counters";
 
 export default function App() {
   return (
-    <main className='container'>
-      <Movies />
-    </main>
+    <>
+      <NavBar />
+      <main className='container'>
+        <Counters />
+      </main>
+    </>
   );
 }
