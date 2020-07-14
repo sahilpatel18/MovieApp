@@ -4,7 +4,7 @@ import "../index.css";
 
 export default class Counters extends Component {
   render() {
-    const { onReset, counters, onDelete, onIncrement } = this.props;
+    const { onReset, counters, onDelete, onIncrement, onDecrement } = this.props;
 
     return (
       <div>
@@ -17,6 +17,7 @@ export default class Counters extends Component {
             onDelete={onDelete}
             counter={counter}
             onIncrement={onIncrement}
+            onDecrement={onDecrement}
           />
         ))}
       </div>
