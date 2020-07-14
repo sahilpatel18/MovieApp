@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import NavBar from "./NavBar";
 import Counters from "./Counters";
+import Like from "./common/Like";
+import Movies from "./Movies";
 
 class App extends Component {
   state = {
@@ -11,15 +13,6 @@ class App extends Component {
       { id: 4, value: 0 },
     ],
   };
-
-  constructor() {
-    super();
-    console.log("ap");
-  }
-
-  componentDidMount() {
-    console.log("mounted");
-  }
 
   handleDelete = (counterId) => {
     const counters = this.state.counters.filter((c) => c.id !== counterId);
@@ -57,13 +50,7 @@ class App extends Component {
           totalCounters={this.state.counters.filter((c) => c.value > 0).length}
         />
         <main className='container'>
-          <Counters
-            counters={this.state.counters}
-            onReset={this.handleReset}
-            onIncrement={this.handleIncrement}
-            onDecrement={this.handleDecrement}
-            onDelete={this.handleDelete}
-          />
+          <Movies />
         </main>
       </>
     );
@@ -71,3 +58,11 @@ class App extends Component {
 }
 
 export default App;
+
+// <Counters
+// counters={this.state.counters}
+// onReset={this.handleReset}
+// onIncrement={this.handleIncrement}
+// onDecrement={this.handleDecrement}
+// onDelete={this.handleDelete}
+// />
