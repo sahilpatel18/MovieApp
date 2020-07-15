@@ -12,3 +12,4 @@ const Table = ({ columns, sortColumn, onSort, data }) => {
 };
 
 export default Table;
+ 
