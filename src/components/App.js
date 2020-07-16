@@ -20,6 +20,7 @@ class App extends Component {
           <Route path='/register' component={RegisterForm} />
           <Route path='/login' component={LoginForm} />
           <Route path='/movies' component={Movies} />
+          <Route path='/movies/new' component={MovieForm} />
           <Route path='/customers' component={Customers} />
           <Route path='/rentals' component={Rentals} />
           <Route path='/not-found' component={NotFound} />
