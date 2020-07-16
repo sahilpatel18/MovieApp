@@ -20,10 +20,16 @@ export default class LoginForm extends Component {
     if (!error) return false;
 
     const errors = {};
-    for (let item of result.error.details) errors[item.path[0]] = item.message;
+    for (let item of error.details) errors[item.path[0]] = item.message;
     return errors;
   };
 
+  validateProperty = ({ name, value }) => {
+    const obj = { [name]: value };
+    const schema = { [name]: this.schema[name] };
+    const { error } = Joi.validate(obj, schema);
+    return error ? error.details[0].message : null;
+  };
   handleSubmit = (e) => {
     e.preventDefault();
 
@@ -32,15 +38,6 @@ export default class LoginForm extends Component {
     if (errors) return;
 
     console.log("submitted");
-  };
-
-  validateProperty = ({ name, value }) => {
-    if (name === "username") {
-      if (value.trim() === "") return "Username is required.";
-    }
-    if (name === "password") {
-      if (value.trim() === "") return "Password is required.";
-    }
   };
 
   handleChange = ({ currentTarget: input }) => {
