@@ -5,8 +5,8 @@ import "bootstrap/dist/css/bootstrap.css";
 import "font-awesome/css/font-awesome.css";
 import "./index.css";
 import App from "./components/App";
-//import Counters from './components/Counters'
-//import Counter from './components/Counter'
+
+console.log('SUPERMAN',process.env.REACT_APP_NAME);
 
 ReactDOM.render(
   <BrowserRouter>
