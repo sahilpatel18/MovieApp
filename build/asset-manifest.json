@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/movieapp/static/css/main.f2cb4b69.chunk.css",
-    "main.js": "/movieapp/static/js/main.0f2c273a.chunk.js",
-    "main.js.map": "/movieapp/static/js/main.0f2c273a.chunk.js.map",
-    "runtime-main.js": "/movieapp/static/js/runtime-main.04b21085.js",
-    "runtime-main.js.map": "/movieapp/static/js/runtime-main.04b21085.js.map",
-    "static/css/2.c0edec5e.chunk.css": "/movieapp/static/css/2.c0edec5e.chunk.css",
-    "static/js/2.194efd47.chunk.js": "/movieapp/static/js/2.194efd47.chunk.js",
-    "static/js/2.194efd47.chunk.js.map": "/movieapp/static/js/2.194efd47.chunk.js.map",
-    "index.html": "/movieapp/index.html",
-    "precache-manifest.212eacb9f1101114ab65fc46b7f9264d.js": "/movieapp/precache-manifest.212eacb9f1101114ab65fc46b7f9264d.js",
-    "service-worker.js": "/movieapp/service-worker.js",
-    "static/css/2.c0edec5e.chunk.css.map": "/movieapp/static/css/2.c0edec5e.chunk.css.map",
-    "static/css/main.f2cb4b69.chunk.css.map": "/movieapp/static/css/main.f2cb4b69.chunk.css.map",
-    "static/js/2.194efd47.chunk.js.LICENSE.txt": "/movieapp/static/js/2.194efd47.chunk.js.LICENSE.txt",
-    "static/media/font-awesome.css": "/movieapp/static/media/fontawesome-webfont.fee66e71.woff"
+    "main.css": "/MovieApp/static/css/main.f2cb4b69.chunk.css",
+    "main.js": "/MovieApp/static/js/main.a26ee488.chunk.js",
+    "main.js.map": "/MovieApp/static/js/main.a26ee488.chunk.js.map",
+    "runtime-main.js": "/MovieApp/static/js/runtime-main.7114d7b8.js",
+    "runtime-main.js.map": "/MovieApp/static/js/runtime-main.7114d7b8.js.map",
+    "static/css/2.41925b62.chunk.css": "/MovieApp/static/css/2.41925b62.chunk.css",
+    "static/js/2.194efd47.chunk.js": "/MovieApp/static/js/2.194efd47.chunk.js",
+    "static/js/2.194efd47.chunk.js.map": "/MovieApp/static/js/2.194efd47.chunk.js.map",
+    "index.html": "/MovieApp/index.html",
+    "precache-manifest.e6e3979a1603caeb3b122eb576ef9bb8.js": "/MovieApp/precache-manifest.e6e3979a1603caeb3b122eb576ef9bb8.js",
+    "service-worker.js": "/MovieApp/service-worker.js",
+    "static/css/2.41925b62.chunk.css.map": "/MovieApp/static/css/2.41925b62.chunk.css.map",
+    "static/css/main.f2cb4b69.chunk.css.map": "/MovieApp/static/css/main.f2cb4b69.chunk.css.map",
+    "static/js/2.194efd47.chunk.js.LICENSE.txt": "/MovieApp/static/js/2.194efd47.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.css": "/MovieApp/static/media/fontawesome-webfont.fee66e71.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.04b21085.js",
-    "static/css/2.c0edec5e.chunk.css",
+    "static/js/runtime-main.7114d7b8.js",
+    "static/css/2.41925b62.chunk.css",
     "static/js/2.194efd47.chunk.js",
     "static/css/main.f2cb4b69.chunk.css",
-    "static/js/main.0f2c273a.chunk.js"
+    "static/js/main.a26ee488.chunk.js"
   ]
 }
