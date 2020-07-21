@@ -6,8 +6,6 @@ import "font-awesome/css/font-awesome.css";
 import "./index.css";
 import App from "./components/App";
 
-console.log('SUPERMAN',process.env.REACT_APP_NAME);
-
 ReactDOM.render(
   <BrowserRouter>
     <App />
