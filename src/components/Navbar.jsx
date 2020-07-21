@@ -25,11 +25,6 @@ const NavBar = ({ user }) => {
               Movies
             </NavLink>
           </li>
-          <li className='nav-item'>
-            <NavLink className='nav-link' to='/customers'>
-              Customers
-            </NavLink>
-          </li>
           {!user && (
             <React.Fragment>
               <li className='nav-item'>
