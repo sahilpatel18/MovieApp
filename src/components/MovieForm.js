@@ -12,7 +12,7 @@ export default class MovieForm extends Form {
       numberInStock: "",
       dailyRentalRate: "",
     },
-    genres: [],
+    genres: ["Comedy", "Romance"],
     errors: {},
   };
   schema = {
