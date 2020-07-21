@@ -12,7 +12,7 @@ export default class MovieForm extends Form {
       numberInStock: "",
       dailyRentalRate: "",
     },
-    genres: ["Comedy", "Romance"],
+    genres: [],
     errors: {},
   };
   schema = {
@@ -64,7 +64,7 @@ export default class MovieForm extends Form {
   }
 
   doSubmit = async () => {
-   await saveMovie(this.state.data);
+    await saveMovie(this.state.data);
 
     this.props.history.push("/movies");
   };
