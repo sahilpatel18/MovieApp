@@ -37,7 +37,7 @@ class Movies extends Component {
       await deleteMovie(movie._id);
     } catch (ex) {
       if (ex.response && ex.response.status === 400)
-        toast.error("Must Register or Login to Delete");
+        toast.error("Must Register or Login to Delete Movies");
       this.setState({ movies: originalMovies });
     }
   };
