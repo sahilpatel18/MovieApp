@@ -20,7 +20,7 @@ export default class TableBody extends Component {
         {data.map((item) => (
           <tr key={item._id}>
             {columns.map((column) => (
-              <td key={this.createKey(item, column)}>
+              <td data-cy='row-of-movie-info' key={this.createKey(item, column)}>
                 {this.renderCell(item, column)}
               </td>
             ))}

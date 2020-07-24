@@ -36,7 +36,7 @@ export default class LoginForm extends Form {
 
     return (
       <div>
-        <h1>Login</h1>
+        <h1 data-cy='login-header' >Login</h1>
         <form onSubmit={this.handleSubmit}>
           {this.renderInput("username", "Username")}
           {this.renderInput("password", "Password", "password")}

@@ -11,6 +11,7 @@ const ListGroup = ({
     <ul className='list-group'>
       {items.map((item) => (
         <li
+         data-cy='specific-genre-selected'
           onClick={() => onItemSelect(item)}
           key={item[valueProperty]}
           className={
