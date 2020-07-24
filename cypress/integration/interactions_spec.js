@@ -1,5 +1,5 @@
 /* eslint-disable no-undef */
-describe("Navigating movie genres", () => {
+describe("A non registered user interacting with the homepage", () => {
   beforeEach(() => {
     cy.server().route("GET", "/api/genres", "fixture:genres").as("getGenres");
     cy.server().route("GET", "/api/movies", "fixture:movies").as("getMovies");
@@ -16,7 +16,6 @@ describe("Navigating movie genres", () => {
   it("ensures that pagination works successfully ", () => {
     cy.get("[data-cy=specific-pagination-nav-screen]").eq(1).click();
 
-    //check to see if list of movies changed
   });
   it("redirects a user that is not registered to the login page if they click on a movie", () => {
     cy.get("tbody>tr").find("td").contains("Avatar").click();
