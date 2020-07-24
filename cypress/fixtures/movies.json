@@ -1,0 +1,65 @@
+[
+  {
+    "_id": "5f188b4348882e00172f8388",
+    "title": "Jurassic Park",
+    "genre": { "_id": "5f1886504bdd633875c8287e", "name": "Action" },
+    "numberInStock": 3,
+    "dailyRentalRate": 10
+  },
+  {
+    "_id": "5f188bb048882e00172f838c",
+    "title": "Avengers",
+    "genre": { "_id": "5f188bbf4bdd633875c82882", "name": "Science Fiction" },
+    "numberInStock": 8,
+    "dailyRentalRate": 7
+  },
+  {
+    "_id": "5f188bba48882e00172f8390",
+    "title": "Shrek",
+    "genre": { "_id": "5f18863c4bdd633875c8287d", "name": "Comedy" },
+    "numberInStock": 3,
+    "dailyRentalRate": 1
+  },
+  {
+    "_id": "5f1891f248882e00172f8463",
+    "title": "Get Out",
+    "genre": { "_id": "5f1888014bdd633875c82880", "name": "Horror" },
+    "numberInStock": 7,
+    "dailyRentalRate": 10
+  },
+  {
+    "_id": "5f18920248882e00172f8469",
+    "title": "Happy Feet",
+    "genre": { "_id": "5f18863c4bdd633875c8287d", "name": "Comedy" },
+    "numberInStock": 2,
+    "dailyRentalRate": 5
+  },
+  {
+    "_id": "5f18924848882e00172f847f",
+    "title": "Avatar",
+    "genre": { "_id": "5f188bbf4bdd633875c82882", "name": "Science Fiction" },
+    "numberInStock": 6,
+    "dailyRentalRate": 10
+  },
+  {
+    "_id": "5f18928548882e00172f8487",
+    "title": "Titanic",
+    "genre": { "_id": "5f1892ac4bdd633875c82883", "name": "Romance" },
+    "numberInStock": 3,
+    "dailyRentalRate": 8
+  },
+  {
+    "_id": "5f1892b048882e00172f8490",
+    "title": "Jumanji",
+    "genre": { "_id": "5f18863c4bdd633875c8287d", "name": "Comedy" },
+    "numberInStock": 8,
+    "dailyRentalRate": 9
+  },
+  {
+    "_id": "5f1892e448882e00172f849a",
+    "title": "Spider-Man Homecoming",
+    "genre": { "_id": "5f1886504bdd633875c8287e", "name": "Action" },
+    "numberInStock": 1,
+    "dailyRentalRate": 10
+  }
+]

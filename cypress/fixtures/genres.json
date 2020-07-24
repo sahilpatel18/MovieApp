@@ -1,0 +1,9 @@
+[
+  { "_id": "5f1886504bdd633875c8287e", "name": "Action" },
+  { "_id": "5f18863c4bdd633875c8287d", "name": "Comedy" },
+  { "_id": "5f1888364bdd633875c82881", "name": "Drama" },
+  { "_id": "5f1888014bdd633875c82880", "name": "Horror" },
+  { "_id": "5f1892ac4bdd633875c82883", "name": "Romance" },
+  { "_id": "5f188bbf4bdd633875c82882", "name": "Science Fiction" },
+  { "_id": "5f1887ee4bdd633875c8287f", "name": "Thriller" }
+]
