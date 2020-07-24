@@ -61,5 +61,12 @@
     "genre": { "_id": "5f1886504bdd633875c8287e", "name": "Action" },
     "numberInStock": 1,
     "dailyRentalRate": 10
+  },
+  {
+    "_id": "5f1b33d75afabb001786d5f2",
+    "title": "World War Z",
+    "genre": { "_id": "5f1886504bdd633875c8287e", "name": "Action" },
+    "numberInStock": 2,
+    "dailyRentalRate": 8
   }
 ]
